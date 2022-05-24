@@ -9,6 +9,7 @@ const SearchBar = () =>(
         <img className="menu" src={Menu} />
         <img className="logo" src={Logo} />
         <div className="searchbox">
+            <div className="searchtext">Buscar</div>
             <div className="box"></div>
             <div className="searchbutton">
                 <img className="searchicon" src={SearchIcon} />
