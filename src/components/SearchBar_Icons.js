@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/searchbar-icons.sass"
 
 const Menu = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
+      className="menuicon"
       style={{
         pointerEvents: "none",
         display: "block",
@@ -25,7 +26,7 @@ const Menu = (props) => (
 const SearchIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
+    className="searchicon"
     style={{
       pointerEvents: "none",
       display: "block",
@@ -47,7 +48,7 @@ const SearchIcon = (props) => (
 const MicIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
+    className="micicon"
     style={{
       pointerEvents: "none",
       display: "block",
@@ -69,7 +70,7 @@ const MicIcon = (props) => (
 const Video_Create = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
+      className="videoicon"
       style={{
         pointerEvents: "none",
         display: "block",
@@ -91,7 +92,7 @@ const Video_Create = (props) => (
 const Apps = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
+      className="appsicon"
       style={{
         pointerEvents: "none",
         display: "block",
@@ -113,7 +114,7 @@ const Apps = (props) => (
 const Notification = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
+      className="bellicon"
       style={{
         pointerEvents: "none",
         display: "block",
