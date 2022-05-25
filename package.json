@@ -5,20 +5,28 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "build-server": "webpack --config webpack.server.js",
+    "dev-server": "node ./server/bundle.js",
+    "all": "npm run build && npm run build-server && npm run dev-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/plugin-transform-regenerator": "^7.18.0",
     "@babel/runtime": "^7.17.9",
+    "express": "^4.18.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/plugin-transform-runtime": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
