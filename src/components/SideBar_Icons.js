@@ -4,14 +4,7 @@ import "../styles/sidebar-icons.sass"
 const HomeIcon = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
+      className="icono-sidebar"
       {...props}
     >
       <g className="style-scope yt-icon">
@@ -23,14 +16,7 @@ const HomeIcon = (props) => (
 const ExploreIcon = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
+      className="icono-sidebar"
       {...props}
     >
       <g className="style-scope yt-icon">
@@ -45,14 +31,7 @@ const ExploreIcon = (props) => (
 const ShortsIcon = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
+      className="icono-sidebar"
       {...props}
     >
       <g className="style-scope yt-icon">
@@ -67,14 +46,7 @@ const ShortsIcon = (props) => (
 const SubscriptionsIcon = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
+      className="icono-sidebar"
       {...props}
     >
       <g className="style-scope yt-icon">
@@ -89,14 +61,7 @@ const SubscriptionsIcon = (props) => (
 const LibraryIcon = (props) => (
     <svg
       viewBox="0 0 24 24"
-      className="style-scope yt-icon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
+      className="icono-sidebar"
       {...props}
     >
       <g className="style-scope yt-icon">
@@ -111,14 +76,7 @@ const LibraryIcon = (props) => (
 const HistoryIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "24px",
-      height: "24px",
-      fill: "white"
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -133,14 +91,7 @@ const HistoryIcon = (props) => (
 const MyVideosIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "24px",
-      height: "24px",
-      fill: "white",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -155,14 +106,7 @@ const MyVideosIcon = (props) => (
 const WatchListIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "24px",
-      height: "24px",
-      fill: "white"
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -177,14 +121,7 @@ const WatchListIcon = (props) => (
 const LikeIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "24px",
-      height: "24px",
-      fill: "white"
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -199,14 +136,7 @@ const LikeIcon = (props) => (
 const ChannelsIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "24px",
-      height: "24px",
-      fill: "white"
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -221,13 +151,7 @@ const ChannelsIcon = (props) => (
 const PremiumIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -242,13 +166,7 @@ const PremiumIcon = (props) => (
 const GamesIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -263,13 +181,7 @@ const GamesIcon = (props) => (
 const LiveIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -284,13 +196,7 @@ const LiveIcon = (props) => (
 const LearnIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -305,13 +211,7 @@ const LearnIcon = (props) => (
 const SportsIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -326,13 +226,7 @@ const SportsIcon = (props) => (
 const ConfigurationIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -347,6 +241,21 @@ const ConfigurationIcon = (props) => (
 const ReportIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
+    className="icono-sidebar"
+    {...props}
+  >
+    <g className="style-scope yt-icon">
+      <path
+        d="m13.18 4 .24 1.2.16.8H19v7h-5.18l-.24-1.2-.16-.8H6V4h7.18M14 3H5v18h1v-9h6.6l.4 2h7V5h-5.6L14 3z"
+        className="style-scope yt-icon"
+      />
+    </g>
+  </svg>
+)
+
+const HelpIcon = (props) => (
+  <svg
+    viewBox="0 0 24 24"
     className="style-scope yt-icon"
     style={{
       pointerEvents: "none",
@@ -358,7 +267,28 @@ const ReportIcon = (props) => (
   >
     <g className="style-scope yt-icon">
       <path
-        d="m13.18 4 .24 1.2.16.8H19v7h-5.18l-.24-1.2-.16-.8H6V4h7.18M14 3H5v18h1v-9h6.6l.4 2h7V5h-5.6L14 3z"
+        d="M15.36 9.96c0 1.09-.67 1.67-1.31 2.24-.53.47-1.03.9-1.16 1.6l-.04.2H11.1l.03-.28c.14-1.17.8-1.76 1.47-2.27.52-.4 1.01-.77 1.01-1.49a1.634 1.634 0 0 0-2.05-1.58c-.59.15-1.05.67-1.19 1.34l-.05.28H8.57l.06-.42c.2-1.4 1.15-2.53 2.42-2.87 1.05-.29 2.14-.08 2.98.57.85.64 1.33 1.62 1.33 2.68zM12 18c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm0-15c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"
+        className="style-scope yt-icon"
+      />
+    </g>
+  </svg>
+)
+
+const SugerencyIcon = (props) => (
+  <svg
+    viewBox="0 0 24 24"
+    className="style-scope yt-icon"
+    style={{
+      pointerEvents: "none",
+      display: "block",
+      width: "100%",
+      height: "100%",
+    }}
+    {...props}
+  >
+    <g className="style-scope yt-icon">
+      <path
+        d="M13 14h-2v-2h2v2zm0-9h-2v6h2V5zm6-2H5v16.59l3.29-3.29.3-.3H19V3m1-1v15H9l-5 5V2h16z"
         className="style-scope yt-icon"
       />
     </g>

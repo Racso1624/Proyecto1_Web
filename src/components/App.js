@@ -2,6 +2,7 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import TopicsBar from "./TopicsBar"
 import SideBar from "./SideBar";
+import MainContent from "./MainContent";
 import "../styles/app.sass";
 
 const App = () =>(
@@ -10,6 +11,7 @@ const App = () =>(
         <SearchBar/>
         <TopicsBar/>
         <SideBar/>
+        <MainContent/>
     </div>
 )
 
