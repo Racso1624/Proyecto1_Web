@@ -5,13 +5,6 @@ const Menu = (props) => (
     <svg
       viewBox="0 0 24 24"
       className="menuicon"
-      style={{
-        pointerEvents: "none",
-        display: "block",
-        width: "24px",
-        height: "24px",
-        fill: "white"
-      }}
       {...props}
     >
       <g className="style-scope yt-icon">

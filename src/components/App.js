@@ -11,7 +11,6 @@ const App = () =>(
         <TopicsBar/>
         <SideBar/>
     </div>
-
 )
 
 export default App

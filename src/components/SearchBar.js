@@ -17,9 +17,11 @@ const SearchBar = () =>(
         <div className="micbutton">
             <MicIcon/>
         </div>
-        <Video_Create/>
-        <Apps/>
-        <Notification/>
+        <div className="search-bar-icons">
+            <Video_Create/>
+            <Apps/>
+            <Notification/>
+        </div>
     </div>
 )
 
