@@ -256,13 +256,7 @@ const ReportIcon = (props) => (
 const HelpIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -277,13 +271,7 @@ const HelpIcon = (props) => (
 const SugerencyIcon = (props) => (
   <svg
     viewBox="0 0 24 24"
-    className="style-scope yt-icon"
-    style={{
-      pointerEvents: "none",
-      display: "block",
-      width: "100%",
-      height: "100%",
-    }}
+    className="icono-sidebar"
     {...props}
   >
     <g className="style-scope yt-icon">
@@ -295,4 +283,4 @@ const SugerencyIcon = (props) => (
   </svg>
 )
   
-export {HomeIcon, ExploreIcon, ShortsIcon, SubscriptionsIcon, LibraryIcon, HistoryIcon, MyVideosIcon, WatchListIcon, LikeIcon}
+export {HomeIcon, ExploreIcon, ShortsIcon, SubscriptionsIcon, LibraryIcon, HistoryIcon, MyVideosIcon, WatchListIcon, LikeIcon, ChannelsIcon, PremiumIcon, GamesIcon, LiveIcon, LearnIcon, SportsIcon, ConfigurationIcon, ReportIcon, HelpIcon, SugerencyIcon}
