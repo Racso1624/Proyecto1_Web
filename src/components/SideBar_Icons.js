@@ -282,5 +282,17 @@ const SugerencyIcon = (props) => (
     </g>
   </svg>
 )
+
+const Subscripciones = () =>(
+  <div className="text">
+    SUBSCRIPCIONES    
+  </div>
+)
+
+const MasYoutube = () =>(
+  <div className="text">
+    MÁS DE YOUTUBE
+  </div>
+)
   
-export {HomeIcon, ExploreIcon, ShortsIcon, SubscriptionsIcon, LibraryIcon, HistoryIcon, MyVideosIcon, WatchListIcon, LikeIcon, ChannelsIcon, PremiumIcon, GamesIcon, LiveIcon, LearnIcon, SportsIcon, ConfigurationIcon, ReportIcon, HelpIcon, SugerencyIcon}
+export {HomeIcon, ExploreIcon, ShortsIcon, SubscriptionsIcon, LibraryIcon, HistoryIcon, MyVideosIcon, WatchListIcon, LikeIcon, ChannelsIcon, PremiumIcon, GamesIcon, LiveIcon, LearnIcon, SportsIcon, ConfigurationIcon, ReportIcon, HelpIcon, SugerencyIcon, Subscripciones, MasYoutube}

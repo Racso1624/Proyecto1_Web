@@ -1,20 +1,65 @@
 $font-stack: 'Roboto','Noto',sans-serif
 $color-principal: #202020
-    
+
+::-webkit-scrollbar 
+    -webkit-appearance: none
+    width: 7px
+
+::-webkit-scrollbar-thumb 
+    border-radius: 4px
+    background-color: #aaa
+    -webkit-box-shadow: 0 0 1px #aaa
+
 .sidebar
     width: 240px
-    height: 1189px
+    height: 900px
     background-color: $color-principal
     margin-top: -60px
     position: absolute
+    overflow-y: scroll
+    overflow-x: hidden
 
 .seccion-1
-    margin-top: 15px
+    padding-top: 10px
+    padding-bottom: 10px
 
 .seccion-2
-    margin-top: 10px
     border-top: 1px solid #373737
     border-bottom: 1px solid #373737
+    padding-top: 10px
+    padding-bottom: 10px
+
+.seccion-3
+    padding-top: 10px
+    padding-bottom: 10px
+
+.seccion-4
+    padding-top: 10px
+    padding-bottom: 10px
+    border-top: 1px solid #373737
+    border-bottom: 1px solid #373737
+
+.seccion-5
+    padding-top: 10px
+    padding-bottom: 10px
+    border-bottom: 1px solid #373737
+
+.info
+    color: #aaa
+    font-family: $font-stack
+    width: 220px
+    margin-left: 25px
+    font-size: 13px
+    padding-top: 10px
+    padding-bottom: 10px
+
+.credits
+    color: #717171
+    font-family: $font-stack
+    margin-left: 25px
+    font-size: 11px
+    padding-top: 10px
+    padding-bottom: 10px
 
 .seccion-sidebar
     width: 220px
@@ -23,6 +68,10 @@ $color-principal: #202020
     color: white
     align-items: center
     font-family: $font-stack
+    font-size: 15px
     grid-template-columns: 1fr 1fr
     grid-column-gap: 18px
     margin-right: 20px
+
+.seccion-sidebar:hover
+    background-color: #383838
