@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../images/youtube_logo.png"
 import "../styles/searchbar.sass";
 import { Video_Create, Menu, Apps, Notification, MicIcon, SearchIcon } from "./SearchBar_Icons";
+import User from "../images/user.png"
 
 const SearchBar = () =>(
     <div className="searchbar">
@@ -21,6 +22,7 @@ const SearchBar = () =>(
             <Video_Create/>
             <Apps/>
             <Notification/>
+            <img src={User} className="icon-profile"/>
         </div>
     </div>
 )

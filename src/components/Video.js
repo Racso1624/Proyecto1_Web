@@ -17,7 +17,7 @@ const Video = (props) =>(
                 </div>
                 <div className="statistics">
                     {props.views} visualizaciones •
-                    hace {props.hours} horas
+                    hace {props.hours}
                 </div>
             </div>
         </div>
