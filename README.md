@@ -12,3 +12,13 @@ diseño de una página, en este caso Youtube.
 Para el resultado de esta página puede ingresar al siguiente link: http://juanelcaballo.club/20679/Proyecto1/ 
 
 Para comparar el diseño con la página original puede ingresar al siguiente link: https://www.youtube.com/
+
+#### Tecnologías y Características Implementadas
+
+Las tecnologías y características fueron:
+- React
+- Webpack
+- Babel
+- Sass
+- File Loader
+- Server Side Rendering
