@@ -22,3 +22,10 @@ Las tecnologías y características fueron:
 - Sass
 - File Loader
 - Server Side Rendering
+
+#### Ejecución e Instalación
+
+1. Clonar el repositorio
+2. Dirigirse al repositorio `cd Proyecto1_web`
+3. Ejecutar el comando `npm install` para instalar las dependencias
+4. Ejecutar el comando `npm start` y luego entrar al puerto `localhost:9000`.
